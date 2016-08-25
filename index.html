@@ -3,16 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Apertura de mente</title>
-	<link rel="stylesheet" href="css/main.css">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
-				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">  <!-- Menu de navegacion -->
+				<nav class="navbar navbar-default" role="navigation">  <!-- Menu de navegacion -->
 					<div class="col-lg-4">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex6-collapse">
@@ -22,7 +22,7 @@
 							    <span class="icon-bar"></span>
 							    <span class="icon-bar"></span>
 							</button>
-	    					<a class="navbar-brand" href="#"><span class="black"> SQUAD 6 / Apertura de mente</span></a> <!-- Logo -->
+	    					<a class="navbar-brand" href="#"><span> SQUAD 6 / Apertura de mente</span></a> <!-- Logo -->
 	  					</div>
 					</div>
 					<div class="col-lg-8"> <!-- Lo que va en el menu -->
@@ -42,12 +42,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">  <!-- Frase inspiradora -->
-					<h1>Frase inspiradora</h1>
+					<hr class="decoracion">
+					<h1 class="text-center h1">"Alone we can do so little, together we can do so much."</h1>
+					<hr class="decoracion">
 				</div>
 				<div class="col-lg-6">  <!-- Botones --> 
-					<button type="button" class="btn btn-block"><span>¿Qué es la apertura de mente?</span></button>
+					<button type="button" class="btn btn-block btn"><span>¿Qué es la apertura de mente?</span></button>
 					<button type="button" class="btn btn-block"><span>Como potencializar la apertura de mente.</span></button>
-					<button type="button" class="btn btn-block"><span>¿Eres de mente abierta o cerrada? Realiza el test para decubrirlo.</span></button>
+					<button type="button" class="btn btn-block"><span>¿Eres de mente abierta o cerrada? <br> Realiza el test para decubrirlo.</span></button>
 				</div>	
 			</div>
 		</div>
@@ -56,19 +58,23 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3">      <!-- Foto de JackieYLili -->
-					<img src="" alt="JackieYLili">
+					<img class="img-responsive img-rounded" src="img/jackieylili.jpg" alt="JackieYLili">
+					<hr class="imghr">
 					<p>Testimonio</p>         <!-- Testimonios -->
 				</div>
 				<div class="col-lg-3">      <!-- Foto de Liz -->
-					<img src="" alt="Liz">
+					<img class="img-responsive img-rounded" src="img/liz.jpg" alt="Liz">
+					<hr class="imghr">
 					<p>Testimonio</p>         <!-- Testimonios -->
 				</div>
 				<div class="col-lg-3">    <!--   Foto de Mariana -->
-					<img src="" alt="Mariana">
+					<img class="img-responsive img-rounded" src="img/mariana.jpg" alt="Mariana">
+					<hr class="imghr">
 					<p>Testimonio</p>         <!-- Testimonios -->
 				</div>
 				<div class="col-lg-3">      <!-- Foto de FlorYFaby -->
-					<img src="" alt="FlorYFaby">
+					<img class="img-responsive img-rounded" src="img/floryfaby.jpg" alt="FlorYFaby">
+<hr class="imghr">
 					<p>Testimonio</p>         <!-- Testimonios -->
 				</div>
 			</div>
@@ -97,18 +103,32 @@
 	</section>
 	<footer>
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-6">
+			<div class="row"> <!-- Derechos de autor -->
+				<div class="col-lg-12">
 					<span>&reg; SQUAD 6</span>
 				</div>
-				<div class="col-lg-2">
-					<a href="#"><img src="" alt="Facebook"></a>
+			</div>
+			<div class="row">   <!-- Iconos redes sociales -->
+				<div class="col-lg-4">
+					<a href="#">
+						<button type="button" class="btn btn-default btn-lg">
+  							<img src="" alt="Facebook">
+						</button>
+					</a>
 				</div>
-				<div class="col-lg-2">
-					<a href="#"><img src="" alt="Twitter"></a>
+				<div class="col-lg-4">
+					<a href="#">
+						<button type="button" class="btn btn-default btn-lg">
+  							<img src="" alt="Twitter">
+						</button>
+					</a>
 				</div>
-				<div class="col-lg-2">
-					<a href="#"><img src="" alt="Instagram"></a>
+				<div class="col-lg-4">
+					<a href="#">
+						<button type="button" class="btn btn-default btn-lg">
+  							<img src="" alt="Instagram">
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
