@@ -5,20 +5,30 @@
 a{
 	text-decoration: none;
 }
-.button{
-	margin-top: 5%;
+button{
 	background-color: #e6868e;
 	border-radius: 2em !important;
 	padding: 2% !important;
+}
+footer{
+	background-color: #e6868e;
+}
+.button{
+	margin-top: 5%;
 	width: 60% !important;
 } 
-.btn-block{
+.btn-block1{
 	margin-left: 20%;
 }
 .mtop5{
 	margin-top: 5%;
 }
-
+.mbottom5{
+	margin-bottom: 5%;
+}
+.gray{
+	color: gray !important;
+}
 /* Men[u] de navegacion*/
 .navbar.navbar-default{
 	opacity: 0.5;
@@ -29,7 +39,6 @@ a{
 /* Seccion imagen y botones */
 .h1{
 	font-size: 340%;
-	color: gray !important;
 }
 .decoracion{
 	border-top: 3px solid #4bceb4;
@@ -58,7 +67,7 @@ span.text-content {
   background: rgba(75, 206, 180, 0.3);
   cursor: pointer;
   display: table;
-  height: 150px;
+  height: 100%;
   left: 0;
   position: absolute;
   top: 0;
@@ -73,7 +82,7 @@ span.text-content {
   background: rgba(75, 206, 180, 0.3);
   cursor: pointer;
   display: table;
-  height: 150px;
+  height: 100%;
   left: 0;
   position: absolute;
   top: 0;
@@ -88,7 +97,7 @@ span.text-content {
   background: rgba(75, 206, 180, 0.3);
   cursor: pointer;
   display: table;
-  height: 150px;
+  height:100%;
   left: 0;
   position: absolute;
   top: 0;
@@ -98,4 +107,10 @@ span.text-content {
   -moz-transition: opacity 500ms;
   -o-transition: opacity 500ms;
   transition: opacity 500ms;
+}
+/* Efecto botones */
+ button:hover{
+	-moz-box-shadow: 0 0 20px #F7819F; 
+	-webkit-box-shadow: 0 0 20px #F7819F;
+	 box-shadow: 0 0 20px #F7819F;
 }
