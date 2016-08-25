@@ -1,8 +1,12 @@
 *{
 	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
 }
 .button{
-	margin-top: 8%;
+	margin-top: 5%;
 	background-color: #e6868e;
 	border-radius: 2em !important;
 	padding: 2% !important;
@@ -10,6 +14,9 @@
 } 
 .btn-block{
 	margin-left: 20%;
+}
+.mtop5{
+	margin-top: 5%;
 }
 
 /* Men[u] de navegacion*/
@@ -21,7 +28,6 @@
 }
 /* Seccion imagen y botones */
 .h1{
-	font-family: 'Poppins', sans-serif;
 	font-size: 340%;
 	color: gray !important;
 }
@@ -32,10 +38,64 @@
 	border-right: none;
 	height: 1	6%;
 }
-/* Fotos y biografia */
-.imghr{
-	border: 0; 
-	height: 0; 
-	margin-top: 0%;
-	box-shadow: 0 1px 5px 4px #4bceb4;
+                    /* Fotos y biografia */
+/* Efecto fotos */
+ul.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul.img-list li {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 100%;
+}
+span.text-content {
+  background: rgba(75, 206, 180, 0.3);
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+span.text-content {
+  background: rgba(75, 206, 180, 0.3);
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+ul.img-list li:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  background: rgba(75, 206, 180, 0.3);
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
